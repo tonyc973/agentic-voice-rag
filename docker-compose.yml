@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  backend:
+    build: .
+    command: python backend_server.py
+    ports:
+      - "5001:5001"
+    volumes:
+      - .:/app
+
+  frontend:
+    build: .
+    command: streamlit run app.py
+    ports:
+      - "8501:8501"
+    environment:
+      - WHISPER_URL=http://backend:5001/transcribe
+    volumes:
+      - .:/app
+    depends_on:
+      - backend

@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+*.env
+*.pdf
+*.wav
+.DS_Store
