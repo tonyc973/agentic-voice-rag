@@ -1,5 +1,4 @@
 # 🎙️ Your Agentic Voice RAG Template Application
-&gt; A plug-and-play template application that enables you build and deploy agentic apps fast.
 
 ---
 
