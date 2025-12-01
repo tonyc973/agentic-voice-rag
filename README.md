@@ -36,5 +36,5 @@ cp .env.example .env
 
 docker-compose up --build
 
-Access the application at http://localhost:8501.
+# Access the application at http://localhost:8501.
 
