@@ -1,7 +1,7 @@
 version: '3.8'
 
 services:
-  backend:
+  audio_backend:
     build: .
     command: python backend_server.py
     ports:
@@ -9,7 +9,7 @@ services:
     volumes:
       - .:/app
 
-  frontend:
+  crew:
     build: .
     command: streamlit run app.py
     ports:
@@ -19,4 +19,4 @@ services:
     volumes:
       - .:/app
     depends_on:
-      - backend
+      - audio_backend
