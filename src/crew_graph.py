@@ -15,7 +15,7 @@ class AgenticWorkflow:
             return yaml.safe_load(f)
 
     def run(self, query: str, chat_history: str):
-        # 1. Instantiate Your Tool
+        # you have to instantiate your custom tools before using them
         search_tool = SearchPdfTool()
 
         # 2. Create Agents
