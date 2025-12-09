@@ -34,7 +34,7 @@ We've all heard about the agentic AI workflows and I bet every curious programme
 ## 🚀 Quick start
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/agentic-voice-rag.git
+git clone https://github.com/tonyc973/agentic-voice-rag.git
 cd agentic-voice-rag
 
 # Open .env and set your OPENAI_API_KEY (momentarily the solution is not fully local, but will be in future)
