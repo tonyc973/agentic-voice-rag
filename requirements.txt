@@ -17,3 +17,7 @@ pywhispercpp
 pydub
 requests
 openai
+bs4
+pydantic
+unstructured
+lxml
