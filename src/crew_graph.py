@@ -9,8 +9,6 @@ from typing import Type
 import requests
 from unstructured.partition.html import partition_html
 
-serper_dev_api = "884f4e4408448bda7dca60e6c8ed554e0859c59d"
-
 
 # the next tool uses the serper api to search the internet - serper api costs money
 class SearchToolInput(BaseModel):
